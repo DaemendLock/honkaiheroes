@@ -1,0 +1,128 @@
+"DOTAAbilities"
+{
+	"blazingpinion"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"honkai_debuff"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"ScriptFile"					"elfs/jingwei"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"               		"2"
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sp_restore"			"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_buff"			"25"
+			}
+		}
+		
+	}
+	"legacyofstarfire"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"elfult"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"ScriptFile"					"elfs/jingwei"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"AbilityManaCost"				"50"
+		"AbilityCooldown"				"40"
+		"AbilityCastPoint"       		"0.3"
+		"AbilityCastRange"        		"250"
+		"AnimationPlaybackRate"  		"1"
+		"AnimationIgnoresModelScale" 	"1"
+		"AbilityCastAnimation"   		"ACT_DOTA_ATTACK"
+		"AbilityDuration"         		"1.25"
+		"AoERadius"               		"250"
+		"AbilityDamage"           		"14"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"healing"				"100"
+			}
+		}
+		
+	}
+	"firefairy"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"honkai_debuff"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"ScriptFile"					"elfs/jingwei"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"               		"2"
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"fire_buff"				"20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal_buff"				"3000"
+			}
+		}
+	}
+	"recuperation"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"honkai_debuff"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"ScriptFile"					"elfs/jingwei"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"               		"2"
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"additional_healing"	"270"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal_buff"				"24"
+			}
+			
+		}
+		
+	}
+	"firesignet"
+	{
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"honkai_debuff"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"ScriptFile"					"elfs/jingwei"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCooldown"				"6"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"rest_rate"				"12"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sp_restore"			"5"
+			}
+		}
+	}
+}

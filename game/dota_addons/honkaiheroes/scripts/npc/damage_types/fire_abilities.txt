@@ -1,0 +1,391 @@
+"DOTAAbilities"
+{
+	"lina_dragon_slave"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"lina_light_strike_array"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"mirana_starfall"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"lion_impale"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"lion_finger_of_death"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"rattletrap_power_cogs"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"rattletrap_rocket_flare"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"sandking_burrowstrike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"sandking_sand_storm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"sandking_epicenter"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"nevermore_shadowraze1"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"nevermore_shadowraze2"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"nevermore_shadowraze3"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"nevermore_requiem"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"skeleton_king_hellfire_blast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"bloodseeker_blood_bath"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"bloodseeker_rupture"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"bloodseeker_blood_mist"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"warlock_shadow_word"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"warlock_rain_of_chaos"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"warlock_golem_permanent_immolation"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"puck_illusory_orb"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"puck_waning_rift"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"puck_dream_coil"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"tinker_heat_seeking_missile"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"sniper_shrapnel"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"sniper_assassinate"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"necrolyte_death_pulse"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"necrolyte_reapers_scythe"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"death_prophet_carrion_swarm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"death_prophet_spirit_siphon"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"pugna_nether_blast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"pugna_life_drain"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"viper_nethertoxin"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"viper_viper_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dragon_knight_breathe_fire"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dragon_knight_dragon_tail"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dragon_knight_fireball"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"clinkz_searing_arrows"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"enchantress_impetus"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"omniknight_purification"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"omniknight_hammer_of_purity"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"huskar_inner_fire"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"huskar_burning_spear"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"huskar_life_break"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"jakiro_dual_breath"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"jakiro_liquid_fire"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"jakiro_macropyre"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"batrider_sticky_napalm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"batrider_flamebreak"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"batrider_firefly"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"batrider_flaming_lasso"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"doom_bringer_scorched_earth"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"doom_bringer_infernal_blade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"doom_bringer_doom"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"gyrocopter_rocket_barrage"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"gyrocopter_homing_missile"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"gyrocopter_call_down"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"invoker_chaos_meteor"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"invoker_sun_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"brewmaster_thunder_clap"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"brewmaster_cinder_brew"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"brewmaster_fire_permanent"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"shadow_demon_shadow_poison"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"shadow_demon_demonic_purge"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"chaos_knight_chaos_bolt"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ogre_magi_fireblast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ogre_magi_ignite"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ogre_magi_unrefined_fireblast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"keeper_of_the_light_illuminate"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"wisp_spirits"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"legion_commander_overwhelming_odds"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ember_spirit_searing_chains"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ember_spirit_sleight_of_fist"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ember_spirit_flame_guard"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"ember_spirit_fire_remnant"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"abyssal_underlord_firestorm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"phoenix_icarus_dive"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"phoenix_fire_spirits"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"phoenix_sun_ray"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"phoenix_supernova"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"techies_land_mines"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"techies_suicide"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"techies_sticky_bomb"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dark_willow_bramble_maze"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dark_willow_shadow_realm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dark_willow_bedlam"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"grimstroke_ink_creature"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"grimstroke_spirit_walk"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"mars_spear"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"mars_gods_rebuke"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"mars_arena_of_blood"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"snapfire_mortimer_kisses"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"snapfire_spit_creep"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dawnbreaker_solar_guardian"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dawnbreaker_fire_wreath"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"dawnbreaker_celestial_hammer"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+}

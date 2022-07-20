@@ -1,0 +1,92 @@
+// Units File
+#base "elfs/npc_dota_elf_unit.txt"
+#base "herrschers/npc_herrscher_unit.txt"
+
+"DOTAUnits"
+{
+	"Version"	"1"
+	"honkai"
+	{
+		"BaseClass"						"npc_dota_creature"
+		"UnitLabel"                    	"honkai"
+		"HasInventory"                	"0"
+		"IsSummoned"                	"0"
+		"CanBeDominated"            	"0"
+		"AutoAttacksByDefault" 			"0"
+		"ConsideredHero"				"1"
+		"WakesNeutrals" 				"0"
+		"AbilityLayout"               	"4"
+		"Ability1"						"honkai_penalti"
+		"Ability2"             			"dummy_passive_vulnerable"
+		"Ability3"						"honkai_beast"
+		"TeamName"						"DOTA_TEAM_NONE"	
+		"AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+		"RingRadius"                	"0"
+		"UseNeutralCreepBehavior"   	"0"
+	}
+	"npc_phoenixfeather"
+	{
+		"BaseClass"						"npc_dota_creature"
+		"UnitLabel"                    	"Phoenix"
+		"HasInventory"                	"0"
+		"IsSummoned"                	"1"
+		"AttackCapabilities"         	"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementCapabilities"        	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"               	"400"       // Speed
+		"MovementTurnRate"            	"0.5"       // Turning rate.
+		"CombatClassAttack"           "DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"           "DOTA_COMBAT_CLASS_DEFEND_HERO"
+		"VisionDaytimeRange"        "1200"        // Range of vision during day light.
+		"VisionNighttimeRange"      "1800"  
+		"CanBeDominated"            	"0"
+		"AutoAttacksByDefault" 			"0"
+		"ConsideredHero"				"1"
+		"WakesNeutrals" 				"0"
+		"AbilityLayout"               	"6"
+		"Ability1"						"retrix"
+		"Ability2"             			"cinder"
+		"Ability3"						"flamingheart"
+		"Ability4"						"rainbowpinion"
+		"Ability5"						"featherdown"
+		"Ability6"						"flamegust"
+		"TeamName"						"DOTA_TEAM_NONE"	
+		"AttackCapabilities"            "DOTA_UNIT_CAP_NO_ATTACK"
+		"RingRadius"                	"64"
+		"UseNeutralCreepBehavior"   	"0"
+		"Creature"
+		{
+  			"CanRespawn"        "0"
+ 			"DisableClumpingBehavior" "1"
+  			"HPGain"           "100"
+  			"DamageGain"       "0"
+  			"ArmorGain"        "0"
+  			"MagicResistGain"  "0"
+  			"MoveSpeedGain"    "0"
+  			"BountyGain"       "0"
+  			"XPGain"           "0"
+  			"DisableResistance" "0"
+		}
+	}
+	"npc_Basilisk_Cross"
+	{
+		"BaseClass"						"npc_dota_creature"
+		"UnitLabel"                    	"Cross"
+		"HasInventory"                	"0"
+		"IsSummoned"                	"1"
+		"AttackCapabilities"         	"DOTA_UNIT_CAP_NO_ATTACK"
+		"MovementCapabilities"        	"DOTA_UNIT_CAP_MOVE_NONE"
+		"CombatClassAttack"           	"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"           	"DOTA_COMBAT_CLASS_DEFEND_HERO"
+		"VisionDaytimeRange"        	"600"        // Range of vision during day light.
+		"VisionNighttimeRange"      	"600"  
+		"CanBeDominated"            	"0"
+		"AutoAttacksByDefault" 			"0"
+		"ConsideredHero"				"0"
+		"WakesNeutrals" 				"1"
+		"RingRadius"                	"32"
+		"UseNeutralCreepBehavior"   	"0"
+		
+	}
+}
+
+

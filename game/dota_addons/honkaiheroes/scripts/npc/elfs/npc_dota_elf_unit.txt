@@ -1,0 +1,68 @@
+"DOTAUnits"
+{
+	"jingwei"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_harpy_a/n_creep_harpy_a.vmdl"
+		"IsSummoned"				"1"
+		"ModelScale"				"0.4"
+		"IsSummoned"                "0"
+		"CanBeDominated"            "0"
+		"UnitLabel"                 "jingweiswings"
+		"StatusStartingMana"          "50"
+		// Abilities
+		//----------------------------------------------------------------
+		"AbilityLayout"             "5"
+		"Ability1"					"blazingpinion"
+		"Ability2"	 				"legacyofstarfire"
+		"Ability3"					"firefairy"
+		"Ability4"					"recuperation"
+		"Ability5"					"firesignet"
+		//Armor
+		"ArmorPhysical"				"5"			
+		"MagicalResistance"			"20"
+		//Attack
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"1"		// Damage range min.
+		"AttackDamageMax"			"1"		// Damage range max.
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"3.3"	
+		"AttackAnimationPoint"		"0.56"		
+		"AttackAcquisitionRange"	"400"
+		"AttackRange"				"550"		
+		"ProjectileModel"			"particles/units/heroes/hero_phoenix/phoenix_base_attack.vpcf"			
+		"ProjectileSpeed"			"900"
+		//bounty
+		"BountyXP"					"100"
+		"BountyGoldMin"				"100"		
+		"BountyGoldMax"				"100"
+		//bounds
+		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"
+		"HealthBarOffset"			"155"
+		//move
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"270"		// Speed
+		"MovementTurnRate"			"0.7"		// Turning rate.
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"0"			// Health regeneration rate.
+		"StatusMana"				"100"			// Base mana.
+		"StatusManaRegen"			"0"			// Mana regeneration rate.
+		"Creature"
+		{
+			"HPGain"					"10"
+			"DamageGain"				"2"
+			"XPGain"					"5"
+			"CanRespawn"				"1"
+		}
+		//----------------------------------------------------------------	
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"300"		// Range of vision during day light.
+		"VisionNighttimeRange"		"300"		// Range of vision at night time.
+	}
+	
+}

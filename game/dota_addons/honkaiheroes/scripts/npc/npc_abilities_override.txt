@@ -1,0 +1,11 @@
+#base "damage_types/fire_abilities.txt"
+#base "damage_types/ice_abilities.txt"
+#base "damage_types/lightning_abilities.txt"
+#base "damage_types/physical_abilities.txt"
+#base "damage_types/burst_mode_abilities.txt"
+#base "damage_types/item_abilities.txt"
+
+"DOTAAbilities"
+{	
+
+}

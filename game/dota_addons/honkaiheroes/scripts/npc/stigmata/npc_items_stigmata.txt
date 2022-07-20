@@ -1,0 +1,1246 @@
+"DOTAAbilities"
+{
+	"item_ScottT"{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Scott"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ScottT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"46"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_ice_damage"				"12"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_total_damage"	"0.5"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stacks"			"20"
+			}	
+		}
+	}
+	"item_ScottM"{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Scott"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ScottM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{	
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"55"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"6"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"extra_health"				"4"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_total_damage"	"0.5"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stacks"			"20"
+			}	
+		}
+	}
+	"item_ScottB"{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Scott"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ScottB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{	
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"47"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"5"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"5"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"extra_health"					"20"
+				
+			}
+		}
+	}
+	"item_AcutagawaT"{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Acutagawa"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AcutagawaT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"43"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_physical_damage"				"20"
+				
+			}	
+		}
+	}
+	"item_AcutagawaM"{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Acutagawa"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AcutagawaM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{	
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"58"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"5"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"3"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_crit_rate"		"20"
+				
+			}	
+		}
+	}
+	"item_AcutagawaB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Acutagawa"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AcutagawaB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"49"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"5"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"8"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"bonus_attack_speed"				"2.0"
+				
+			}	
+		}
+	}
+	"item_ElizabethT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Elizabeth"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ElizabethT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"20"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_armor_pct"				"310"
+				
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_physical_damage"			"5"
+				
+			}		
+		}
+	}
+	"item_ElizabethM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Elizabeth"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ElizabethM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"7"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_physical_damage"				"10"
+				
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_physical_damage_ex"			"10"
+				
+			}		
+		}
+	}
+	"item_ElizabethB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Elizabeth"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_ElizabethB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"3"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_move_speed"				"10"
+				
+			}	
+		}
+	}
+	"item_WangT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Wang"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_WangT"
+        "DamageElementType" 			"DAMAGE_ELEMENT_TYPE_FIRE"
+		"ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"72"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"11"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_fire_damage"				"15"
+				
+			}	
+		}
+	}
+	"item_WangM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Wang"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_WangM"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_FIRE"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"72"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"10"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_fire_damage"				"15"
+				
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_fire_damage"				"10"	
+			}
+			"07"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_total_damage"			"10"	
+			}	
+		}
+	}
+	"item_WangB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Wang"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_WangB"
+        "DamageElementType" 			"DAMAGE_ELEMENT_TYPE_FIRE"
+		"ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"72"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"0"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"6"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_fire_damage"				"15"
+				
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_move_speed"				"10"
+				
+			}	
+		}
+	}
+	"item_TeslaT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Tesla"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_TeslaT"
+		"ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"71"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_total_damage"				"51"
+				
+			}	
+		}
+	}
+	"item_TeslaM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Tesla"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_TeslaM"
+		"ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"71"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"5"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_total_damage"				"51"
+				
+			}	
+		}
+	}
+	"item_TeslaB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Tesla"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_TeslaB"
+		"ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"71"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"2"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_total_damage"				"51"
+				
+			}	
+		}
+	}
+	
+	"item_AttilaT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Attila"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AttilaT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"67"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"4"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"combo_count"			"10"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"buff_val"				"15"
+			}
+		}
+	}
+	"item_AttilaM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Attila"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AttilaM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"67"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"4"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"combo_count"			"20"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"buff_val"				"41"
+			}
+			
+		}
+	}
+	"item_AttilaB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Attila"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_AttilaB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"67"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"1"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"combo_count"			"30"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"buff_val"				"31"
+			}	
+		}
+	}
+	"item_EdisonT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Edison"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_EdisonT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"12"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lightning_bonus"		"15"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_bonus"			"120"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_cd"				"6"
+			}			
+		}
+	}
+	"item_EdisonM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Edison"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_EdisonM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"7"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lightning_bonus"		"10"
+				
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_bonus"			"105"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_cd"				"6"
+			}			
+		}
+	}
+	"item_EdisonB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Edison"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_EdisonB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"48"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"4"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"2"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"summon_bonus"			"30"		
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed_bonus"		"-30"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_cd"				"6"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow_duration"			"4"
+			}			
+		}
+	}
+	"item_KiraT"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Kira"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_KiraT"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaT"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"60"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"11"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"4"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"elem_bonus"			"15"
+			}	
+		}
+	}
+	"item_KiraM"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Kira"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_KiraM"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaM"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"70"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"5"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health_bonus"			"15"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"armot_bonus"			"15"
+			}		
+		}
+	}
+	"item_KiraB"
+	{
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "stigmata/Kira"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE "
+		"AbilityTextureName" 			"item_KiraB"
+        "ItemKillable"                  "1"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"0"
+		"AbilityCooldown"				"3"
+		"AbilitySharedCooldown"			"stigmaB"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilitySpecial"
+		{
+		
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_bonus"				"67"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"atk_bonus"				"6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"def_bonus"				"1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crt_bonus"				"7"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"elem_bonus"			"20"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"5"
+			}				
+		}
+	}
+}

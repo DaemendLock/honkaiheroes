@@ -1,0 +1,199 @@
+"DOTAAbilities"
+{
+	"mirana_arrow"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"vengefulspirit_magic_missile"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"vengefulspirit_wave_of_terror"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"drow_ranger_frost_arrows"
+	{
+		"DamageElementType" "Ice"
+	}
+	"morphling_waveform"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"morphling_adaptive_strike_agi"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"morphling_adaptive_strike_str"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"bane_brain_sap"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"bane_nightmare"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"bane_fiends_grip"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"crystal_maiden_crystal_nova"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"crystal_maiden_frostbite"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"crystal_maiden_freezing_field"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"kunkka_torrent"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"kunkka_ghostship"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"lich_frost_nova"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"lich_chain_frost"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tidehunter_gush"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tidehunter_anchor_smash"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tidehunter_ravage"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"night_stalker_void"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"jakiro_ice_path"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"jakiro_liquid_ice"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"spectre_spectral_dagger"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"ancient_apparition_cold_feet"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"ancient_apparition_chilling_touch"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"ancient_apparition_ice_blast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"invoker_cold_snap"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"invoker_ice_wall"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"silencer_curse_of_the_silent"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"silencer_glaives_of_wisdom"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"silencer_last_word"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"undying_decay"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"undying_soul_rip"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"slark_dark_pact"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tusk_ice_shards"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tusk_snowball"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tusk_walrus_kick"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"tusk_walrus_punch"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"abaddon_death_coil"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"abaddon_aphotic_shield"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"oracle_fortunes_end"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"winter_wyvern_arctic_burn"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"winter_wyvern_splinter_blast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"grimstroke_dark_artistry"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"void_spirit_aether_remnant"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"void_spirit_dissimilate"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"void_spirit_astral_step"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"void_spirit_resonant_pulse"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+}

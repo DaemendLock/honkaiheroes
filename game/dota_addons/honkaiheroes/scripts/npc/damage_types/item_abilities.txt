@@ -1,0 +1,128 @@
+"DOTAAbilities"
+{	
+	"item_meteor_hammer"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_spirit_vessel"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_cyclone"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_dagon"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_2"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_2L"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_3"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_3L"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_4"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_4L"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_5"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dagon_5L"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_ethereal_blade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_maelstrom"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_mjollnir"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_witch_blade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_orchid"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_bloodthorn"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_radiance"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_shivas_guard"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_urn_of_shadows"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_overwhelming_blink"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_dragon_scale"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_misericorde"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	"item_cloak_of_flames"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_FIRE"
+	}
+	"item_black_powder_bag"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"item_enchanted_quiver"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_stormcrafter"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_gungir"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_wind_waker"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"item_revenants_brooch"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_ICE"
+	}
+	
+}

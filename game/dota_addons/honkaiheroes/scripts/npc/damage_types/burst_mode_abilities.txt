@@ -1,0 +1,160 @@
+"DOTAAbilities"
+{
+	"abaddon_borrowed_time"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"alchemist_chemical_rage"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"dawnbreaker_solar_guardian"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"dragon_knight_elder_dragon_form"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"legion_commander_duel"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"life_stealer_rage"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"lycan_shapeshift"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"marci_unleash"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"night_stalker_darkness"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"omniknight_guardian_angel"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"phoenix_supernova"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"primal_beast_pulverize"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"pudge_dismember"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"sandking_epicenter"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"snapfire_mortimer_kisses"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"sven_gods_strength"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"undying_flesh_golem"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"broodmother_insatiable_hunger"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"clinkz_strafe"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"faceless_void_chronosphere"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"juggernaut_omni_slash"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"lone_druid_true_form"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"medusa_stone_gaze"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"pangolier_gyroshell"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"riki_tricks_of_the_trade"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"slark_shadow_dance"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"terrorblade_metamorphosis"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"troll_warlord_battle_trance"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"ursa_enrage"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"crystal_maiden_freezing_field"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"dark_willow_shadow_realm"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"death_prophet_exorcism"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"keeper_of_the_light_spirit_form"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"puck_phase_shift"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"storm_spirit_ball_lightning"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"winter_wyvern_arctic_burn"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"witch_doctor_death_ward"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"drow_ranger_multishot"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	"juggernaut_omnislash"
+	{
+		"ConsideredBurstmode" "1"
+	}
+	
+}

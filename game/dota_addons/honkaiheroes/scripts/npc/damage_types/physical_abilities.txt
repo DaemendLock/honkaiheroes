@@ -1,0 +1,324 @@
+"DOTAAbilities"
+{	
+	"antimage_mana_break"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"queenofpain_shadow_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}	
+	"queenofpain_scream_of_pain"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"life_stealer_infest"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"furion_wrath_of_nature"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"windrunner_powershot"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"leshrac_split_earth"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"juggernaut_blade_fury"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pudge_meat_hook"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pudge_rot"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pudge_dismember"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earthshaker_fissure"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earthshaker_aftershock"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earthshaker_echo_slam"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"phantom_assassin_stifling_dagger"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"phantom_assassin_fan_of_knives"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"axe_battle_hunger"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"axe_counter_helix"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"axe_culling_blade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"tiny_avalanche"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"tiny_toss"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"rattletrap_hookshot"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"slardar_slithereen_crush"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"beastmaster_wild_axes"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"beastmaster_primal_roar"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"beastmaster_call_of_the_wild"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"venomancer_poison_nova"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"venomancer_venomous_gale"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"death_prophet_exorcism"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"broodmother_spawn_spiderlings"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"broodmother_silken_bola"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"broodmother_sticky_snare"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"bounty_hunter_shuriken_toss"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"bounty_hunter_jinada"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"ursa_earthshock"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"spirit_breaker_nether_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"alchemist_acid_spray"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"alchemist_unstable_concoction"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"lone_druid_spirit_bear_entangle"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"brewmaster_earth_hurl_boulder"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"treant_natures_guise"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"treant_overgrowth"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"treant_leech_seed"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"meepo_poof"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"meepo_divided_we_stand"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"troll_warlord_whirling_axes_range"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"troll_warlord_whirling_axes_melee"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"centaur_hoof_stomp"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"centaur_double_edge"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"centaur_stampede"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"shredder_whirling_death"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"shredder_timber_chain"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"shredder_chakram"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"shredder_chakram_2"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"bristleback_quill_spray"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earth_spirit_boulder_smash"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earth_spirit_rolling_boulder"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earth_spirit_geomagnetic_grip"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earth_spirit_magnetize"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"earth_spirit_petrify"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"monkey_king_boundless_strike_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"monkey_king_primal_spring"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pangolier_swashbuckle"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pangolier_shield_crash"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"pangolier_gyroshell"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"snapfire_scatterblast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"snapfire_firesnap_cookie"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"snapfire_lil_shredder"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"hoodwink_acorn_shot"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"hoodwink_bushwhack"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"hoodwink_sharpshooter"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"hoodwink_hunters_boomerang"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"marci_grapple"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"marci_unleash"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"marci_companion_run"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"primal_beast_trample"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"primal_beast_pulverize"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"primal_beast_onslaught"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	"primal_beast_rock_throw"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_PHYSICAL"
+	}
+	
+	
+	
+	
+	
+}

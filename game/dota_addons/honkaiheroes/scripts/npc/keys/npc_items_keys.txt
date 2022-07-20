@@ -1,0 +1,1233 @@
+"DOTAAbilities"
+{
+	"item_key_of_reason"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName" 			"item_key_of_reason"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"0"
+		"Duration"						"%ability_duration"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"2"
+				
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"ability_cooldown"				"10"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"ability_duration"				"10"
+			}
+		}
+    }
+	"item_key_of_reason_refresher"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName" 			"key_of_reason_refresher"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"5000"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE" 
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"300"
+		"AbilityCooldown"         		"170.0"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"0"
+		"ItemShopTags"					"regen_health;regen_mana;hard_to_tag"
+		"ItemQuality"					"rare"
+		"ItemAliases"					"refresher orb"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"8"
+				
+			}
+		}
+		
+
+    }
+	"item_key_of_reason_bkb"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"ItemQuality"					"epic"
+		"AbilityTextureName" 			"key_of_reason_bkb"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"4050"
+		"ItemDroppable"					"0"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"75"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"4"
+				
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"9.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"model_scale"			"30"     // Percentage over model scale
+			}
+		}
+		
+
+    }
+	"item_key_of_reason_dagon_5"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityTextureName" 			"key_of_reason_dagon_5"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"0"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"  
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityCastRange"				"700 750 800 850 900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"35.0 30.0 25.0 20.0 15.0"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityManaCost"				"120 140 160 180 200"
+		"ItemCost"						"7700"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"ItemQuality"					"rare"
+		"ShouldBeSuggested"				"1"
+		"AbilitySpecial"
+		{	
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 800"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"damage_delay"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_cost_tooltip"		"120 140 160 180 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"int_damage"			"0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"2"
+				
+			}
+		}
+		
+
+    }
+	"item_key_of_reason_silver_edge"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
+		"AbilityTextureName" 			"item_key_of_reason_silver_edge"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"0"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"  
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"75"
+		"AbilityCooldown"         		"25"
+		"AbilityCastPoint"				"0.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"3"
+				
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"windwalk_duration"		"14.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"windwalk_movement_speed"	"20"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"windwalk_fade_time"	"0.3"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"windwalk_bonus_damage"	"175"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"break_duration"		"4.0"
+			}
+			
+		}
+    }
+	"item_key_of_reason_greaves"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName" 			"item_key_of_reason"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"  
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"				"40"
+		"AbilityCastRange" 				"1200"
+		"ItemAlertable"					"1"
+		"ShouldBeSuggested"				"1"
+		"AbilityCastPoint"				"0.0"
+		"ItemQuality"					"rare"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"4"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"replenish_health"		"300"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"replenish_mana"		"200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal_radius"			"1200"
+			}
+		}
+    }
+	"item_key_of_reason_hex"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityTextureName" 			"item_key_of_reason_hex"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"0"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"  
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"250"
+		"ItemCost"						"5675"
+		"ItemQuality"					"rare"
+		"AbilityCastRange"				"800"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"20.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"5"
+				
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"sheep_duration"		"3.5"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"sheep_movement_speed"	"140"
+			}
+		}
+    }
+	"item_key_of_reason_halberd"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityTextureName" 			"item_key_of_reason"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"0"
+		"ItemDroppable"					"0"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"				"100"
+		"ItemCost"						"3550"
+		"ItemQuality"					"artifact"
+		"AbilityCooldown"				"18"
+		"AbilityCastRange"				"600"
+		"AbilityCastPoint"				"0.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"4"
+				
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"disarm_range"				"5.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"disarm_melee"				"3.0"
+			}	
+		}
+    }
+	"item_key_of_reason_blink"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_reason_items"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+		"AbilityTextureName" 			"item_key_of_reason_blink"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "0"
+		"ItemCost"						"0"
+		"ItemDroppable"					"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCooldown"				"15.0"
+		"AbilityManaCost"				"0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"blink_range"			"1200"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"blink_damage_cooldown"	"3.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"blink_range_clamp"		"960"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"2"
+				
+			}
+		}
+    }
+	
+	"item_key_of_the_void"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_the_void"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_the_void"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityChannelTime"			"5"
+		"AbilityCooldown"         		"30"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"0"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"5"
+				
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"600"
+			}
+		}
+    }
+	"item_key_of_sanction"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_sanction"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_sanction"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"180"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"0"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilityChannelTime"      		"0.0"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"600"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"powershot_damage_pct"			"2000"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"shot_radius"					"80"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"shot_breach_duration"			"5"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"shot_breach"					"100"
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"hit_breach_duration"			"1.5"
+			}
+			"07"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"Cross_radius"			"800"
+			}
+			"08"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"Cross_damage_pct"			"40"
+			}
+			"09"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"Cross_interval"			"3"
+			}
+			
+			"10"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"nuada_burst_buff"				"50"
+			}
+			"11"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"nuada_breach_duration"			"3"
+			}
+			"12"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"attack_range_bonus"			"150"
+			}
+			"13"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"mitter_damage"					"300"
+			}
+			"14"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"nuada_burst_duration"			"3"
+			}
+			"15"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"mitter_elem_bonus"				"50"
+			}
+			"16"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"mitter_radius"					"2000"
+			}
+			
+			
+		}
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+			"particle"	"particles/econ/items/drow/drow_arcana/drow_arcana_multishot_linear_proj_frost_v2.vpcf"
+		}
+		
+
+    }
+	"item_key_of_hurricanes"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_hurricanes"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityTextureName" 			"item_key_of_hurricanes"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"120"
+		"AoERadius"              		"600"
+		"AbilityCastPoint"				"0"
+		"AbilityChannelTime"      		"2"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"					"7"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"600"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"heal_ammount"					"200"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"cast_duration"					"2.0"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"tick_count"					"5"
+			}
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"decrees_stacks"					"-1"
+			}
+			
+		}
+
+    }
+	"item_key_of_icing"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_icing"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_icing"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_ICE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"0"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"0.15"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilityChannelTime"      		"0.0"
+		"AbilityCharges"				"3"
+		"AbilityChargeRestoreTime"		"45"
+		"ItemPermanent" 				"1"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"first_radius"			"500"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"angle"					"30"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"second_radius"			"500"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"third_radius"			"400"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"time_diff"				"3"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"170"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"trauma_duration"		"6"
+			}
+			
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"total_bonus"		"15"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"ice_bonus"			"40"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed_bonus"			"-45"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"charge_cd" 			"45"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"apply_stacks" 			"2"
+			}
+			
+		}
+	
+
+    }
+	"item_key_of_creation"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_creation"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" 		"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName" 			"item_key_of_creation"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"AbilitySharedCooldown"			"abyss_flower"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_PHYSICAL"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"150"
+		"AbilityCastRange"        		"600"
+		"AoERadius"              		"%radius"
+		"AbilityCastPoint"				"0.6"
+		"AbilityChannelTime"      		"0"
+		"precache"
+		{
+			"particle" 					"particles/units/heroes/hero_leshrac/leshrac_split_earth.vpcf"
+			"soundfile"   				"soundevents/game_sounds_heroes/game_sounds_leshrac.vsndevts"
+			"particle"					"particles/units/heroes/hero_mars/mars_spear.vpcf"
+			"particle" 					"particles/units/heroes/hero_earthshaker/earthshaker_aftershock.vpcf"
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"250"
+			}
+		
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"					"15"	
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"projectile_speed"				"1000"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"delay"							"0.3"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"heal"						"4000"
+			}
+			"06"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"damage"						"4000"
+			}
+			"07"
+			{
+				"var_type"						"FIELD_FLOAT"
+				"duration"						"5"
+			}
+			"08"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"burst_buff"				"20"
+			}
+			"09"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"cd_red"					"20"
+			}
+			
+		}
+
+    }
+	"item_white_flower"
+    {
+		"BaseClass"                     "item_lua"
+		"AbilityTextureName" 			"item_white_flower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" 		"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"  		"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"                    "keys/item_abyss_flower"
+		"ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"AbilitySharedCooldown"			"abyss_flower"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_PHYSICAL"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilitySound"					"Honkaiheroes.Skadi.Cast2"
+		"AbilityManaCost"         		"100"
+		"AbilityCooldown"         		"30"
+		"AoERadius"              		"%radius"
+		"AbilityCastRange"        		"700"
+		"AbilityCastPoint"				"0.1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"apply_stacks"				"3"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"heal"						"800"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"duration"					"1"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"250"
+			}
+			"05"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"projectile_speed"			"1000"
+			}
+			"06"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"cd_red"					"20"
+			}
+			
+		}
+	}
+	"item_black_abyss"
+    {
+		"BaseClass"                     "item_lua"
+		"AbilityTextureName" 			"keys/item_black_abyss"
+		"AbilityTextureName" 			"item_black_abyss"
+		"ScriptFile"                    "keys/item_abyss_flower"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" 		"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_PHYSICAL"
+		"ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"AbilitySharedCooldown"			"abyss_flower"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"30"
+		"AbilityCastRange"        		"700"
+		"AbilityCastPoint"				"1.1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"apply_stacks"				"3"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage"					"800"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"duration"					"1"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"250"
+			}
+			"05"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"projectile_speed"			"1000"
+			}
+			"06"
+			{
+				"var_type" 					"FIELD_INTEGER"
+				"burst_buff"				"20"
+			}
+		}
+		
+	}
+	"item_key_of_destruction"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_destruction"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName" 			"item_key_of_destruction"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_FIRE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"120"
+		"AbilityCastRange"        		"500"
+		"AbilityCastPoint"				"0.3"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"					"7"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"atk_damage"					"500"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"duration"						"10"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"hp_cost_pct"					"2 1"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"damage_buff"					"13"
+			}
+			
+			"06"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"heal_pct"						"50"
+			}
+			"07"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"heal_amount"					"15"
+			}
+			"08"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"damage_bonus"					"17"
+			}
+			
+			
+		}
+		"precache"
+		{
+			"soundfile" 				"soundevents/game_sounds_heroes/game_sounds_doombringer.vsndevts"
+			"particle"      			"particles/units/heroes/hero_doom_bringer/doom_infernal_blade_impact.vpcf"
+			"particle"      			"particles/units/heroes/hero_doom_bringer/doom_loadout.vpcf"
+			"particle"      			"particles/units/heroes/hero_clinkz/clinkz_burning_army_ambient.vpcf"
+			
+		}
+
+    }
+	"item_key_of_sentience"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_sentience"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityTextureName" 			"item_key_of_sentience"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"100"
+		"AbilityCooldown"         		"0"
+		"AbilityCastRange"        		"600"
+		"AbilityCastPoint"				"0.1"
+		"AbilityChannelTime"      		"0.0"
+		"precache"
+		{
+			"particle"					"particles/econ/items/vengeful/vs_ti8_immortal_shoulder/vs_ti8_immortal_magic_missle_crimson_end_feathers.vpcf"
+			"soundfile"					"soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"apply_stacks"			"3"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sleep_duration"			"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sleep_damage"			"100"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_radius"			"50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cheatdeath_mana_cost"	"100"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_duration"			"10"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_pct"				"20"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_mana_pct"			"20"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sleep_cd"				"2"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_cd"				"2"
+			}
+		}
+
+    }
+	"item_key_of_devouring"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_devouring"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_devouring"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"120"
+		"AbilityCastRange"        		"1200"
+		"AbilityCastPoint"				"3"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilityChannelTime"      		"0.0"
+		"precache"
+		{
+		    "soundfile"				 	"soundevents/keys_sounds.vsndevts"
+		}
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"							"FIELD_INTEGER"
+				"apply_stacks"						"15"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"far_damage"			"100"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"far_radius"			"1200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"pull_radius"			"1200"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"pull_speed"			"250"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"near_radius"			"200"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"near_damage"			"300"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"tick_rate"				"0.1"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"6.0"
+			}
+			"10"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_radius"			"1200"
+			}
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"pull_rotate_speed"		"0.07"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"animation_rate"		"0.2"
+			}
+			
+			
+		}
+
+    }
+	"item_key_of_domination"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_domination"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityTextureName" 			"item_key_of_domination"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"50"
+		"AbilityCooldown"         		"120"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"0.3"
+		"AbilityChannelTime"      		"0.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"max_units"						"4"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"apply_stacks"						"1"
+			}
+			"03"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"attack_speed_bonus"			"240"
+			}
+			"04"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"damage_bonus"						"60"
+			}
+			"05"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"damage_share"						"60"
+			}
+		}
+
+    }
+	"item_key_of_binding"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_binding"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_binding"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"0"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"2"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilityChannelTime"      		"0.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"600"
+			}
+		}
+
+    }
+	"item_key_of_corruption"
+    {
+        "BaseClass"                     "item_lua"
+        "ScriptFile"                    "keys/item_key_of_corruption"
+        "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+        //"Effect"                      "particles/gray_item.vpcf"
+		"AbilityTextureName" 			"item_key_of_corruption"
+        "ItemKillable"                  "0"
+		"ItemSellable"					"0"
+        "ItemPurchasable"               "1"
+		"ItemCost"						"0"
+		"ItemDroppable"					"1"
+		"ItemShareability"				"ITEM_PARTIALLY_SHAREABLE"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"0"
+		"AbilityCastRange"        		"0"
+		"AbilityCastPoint"				"2"
+		"AbilityCastRangeBuffer"  		"250"
+		"AbilityChannelTime"      		"0.0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"radius"						"600"
+			}
+		}
+
+    }
+}

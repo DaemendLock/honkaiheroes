@@ -1,0 +1,279 @@
+"DOTAAbilities"
+{
+	"antimage_mana_void"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"queenofpain_sonic_wave"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"lina_laguna_blade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"witch_doctor_paralyzing_cask"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"witch_doctor_maledict"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"leshrac_diabolic"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"leshrac_lightning_storm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"leshrac_greater_lightning_storm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"leshrac_pulse_nova"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"sven_storm_bolt"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"phantom_lancer_spirit_lance"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"razor_plasma_field"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"razor_unstable_current"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"razor_eye_of_the_storm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"storm_spirit_static_remnant"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"storm_spirit_ball_lightning"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"zuus_arc_lightning"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"zuus_lightning_bolt"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"zuus_thundergods_wrath"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"zuus_heavenly_jump"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"dazzle_poison_touch"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"dazzle_shadow_wave"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"dazzle_bad_juju"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"rattletrap_battery_assault"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"shadow_shaman_ether_shock"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"shadow_shaman_shackles"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"riki_poison_dart"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"enigma_malefice"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"enigma_midnight_pulse"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"enigma_black_hole"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"tinker_laser"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"tinker_shrink_ray"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"tinker_warp_grenade"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"tinker_march_of_the_machines"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"luna_lucent_beam"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"dark_seer_vacuum"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"dark_seer_ion_shell"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"darkseer_normal_punch"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"weaver_shukuchi"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"invoker_tornado"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"invoker_emp"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"invoker_deafening_blast"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"obsidian_destroyer_arcane_orb"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"obsidian_destroyer_astral_imprisonment"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"obsidian_destroyer_sanity_eclipse"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"visage_soul_assumption"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"visage_stone_form"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"rubick_telekinesis"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"rubick_fade_bolt"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"disruptor_thunder_strike"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"disruptor_static_storm"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"nyx_assassin_impale"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"nyx_assassin_mana_burn"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"nyx_assassin_vendetta"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"medusa_mystic_snake"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"magnataur_shockwave"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"magnataur_skewer"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"magnataur_horn"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"skywrath_mage_arcane_bolt"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"skywrath_mage_concussive_shot"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"skywrath_mage_mystic_flare"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"elder_titan_echo_stomp"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"elder_titan_earth_splitter"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"elder_titan_ancestral_spirit"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"oracle_purifying_flames"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"oracle_rain_of_destiny"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"techies_reactive_tazer"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"arc_warden_flux"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+	"arc_warden_spark_wraith"
+	{
+		"DamageElementType" "DAMAGE_ELEMENT_TYPE_LIGHTNING"
+	}
+}

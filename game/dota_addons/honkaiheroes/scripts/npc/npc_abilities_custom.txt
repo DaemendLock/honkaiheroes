@@ -1,0 +1,468 @@
+#base "elfs/npc_abilities_elf.txt"
+#base "keys/npc_abilities_keys.txt"
+#base "herrschers/npc_abilities_herrschers.txt"
+
+"DOTAAbilities"
+{
+	"Version"		"1"
+
+	"honkai_debuff"
+	{
+	"BaseClass" 					"ability_lua"
+	"ScriptFile"					"honkai/honkai_debuff"
+	"AbilityTextureName"			"honkai_debuff"
+	"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE | DAMAGE_TYPE_HP_REMOVAL"
+	"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_movement_speed"	"-10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage"				"0.5"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"dot_stack"				"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stack" 			"20"
+			}
+		}
+	}
+	"honkai_penalti"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"honkai/honkai_penalti"
+		"AbilityTextureName"			"honkai_debuff"
+		"MaxLevel"						"4"		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"					"FIND_UNITS_EVERYWHERE"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_movement_speed"	"-10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage"				"5"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"dot_stack"				"10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_stack" 			"20"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"aura_radius"				"-1"
+			}
+		}
+	}
+	"honkai_beast"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"honkai/honkai_beast"
+		"MaxLevel"						"4"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"					"FIND_UNITS_EVERYWHERE"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_hp"				"1000"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_movement_speed"	"100"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"20"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"			"50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spread_time" 			"60"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"spread_radius" 			"300"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"debuff_chc" 			"100"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_pct" 				"100"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hps" 					"10"
+			}
+		}
+	}
+	"dummy_passive_vulnerable"
+	{
+    "BaseClass"       "ability_datadriven"
+    "AbilityBehavior" "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+    "Modifiers"
+    {
+        "dummy_modifier"
+        {
+            "Passive" "1"
+            "States"
+            {
+                "MODIFIER_STATE_NO_UNIT_COLLISION"  "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_NO_TEAM_MOVE_TO"    "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_NO_TEAM_SELECT"     "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_COMMAND_RESTRICTED" "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_ATTACK_IMMUNE"      "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_MAGIC_IMMUNE"       "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_NOT_ON_MINIMAP"     "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_UNSELECTABLE"       "MODIFIER_STATE_VALUE_ENABLED"
+                "MODIFIER_STATE_NO_HEALTH_BAR"      "MODIFIER_STATE_VALUE_ENABLED" 
+				"MODIFIER_STATE_INVULNERABLE"		"MODIFIER_STATE_VALUE_ENABLED" 
+				"MODIFIER_STATE_INVISIBLE"			"MODIFIER_STATE_VALUE_ENABLED" 
+            }
+        }
+    }
+	
+	}
+	
+	
+	
+	
+
+	
+	//---------------------------------------------------------------------NOT-FOR-HONKAI-------------------------------------------------
+	"super_colb"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"ability/super_colb"
+		"HasScepterUpgrade"				"1"
+		"AbilityCastRange"				"0"
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"ItemDisplayCharges" 			"1"
+		"ItemRequiresCharges" 			"0"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+	}
+	"custom_winter_wyvern_arctic_burn"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/winter_wyvern/custom_winter_wyvern_arctic_burn"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"winter_wyvern_arctic_burn"
+		"HasScepterUpgrade"               "1"
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilityCooldown"				"42 36 28 20"
+		"AbilityManaCost"				"100"	
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_radius"			"350 400 450 500"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage_pct"				"6 7 8 9"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"8.0"
+			}
+			
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_speed"			"500"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_vision"			"400"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"speed_bonus"				"-16 -24 -32 -40"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"scepter_mana"				"20"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cooldown_scepter"			"0"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"scepter_speed"				"25"
+			}
+			"10"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"attack_bonus"				"-0.1"
+			}
+			"11"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"tree_radius"				"175"
+			}
+			"12"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"scepter_duration"					"-1"
+			}
+			"13"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"slow_duration"					"5"
+			}
+		}
+		"AbilityCastAnimation"				"ACT_DOTA_OVERRIDE_ABILITY_1"
+		"AbilitySound"						"Hero_Winter_Wyvern.ArcticBurn.Cast"
+	}
+	"custom_winter_wyvern_splinter_blast"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/winter_wyvern/custom_winter_wyvern_splinter_blast"	
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"winter_wyvern_splinter_blast"
+		"AbilityCastRange"				"1200"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCooldown"				"7"
+		"AbilityDamage"					"85 160 235 310"
+		"AbilityManaCost"				"105 120 135 150"	
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_radius"			"500"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage"					"100 180 260 340"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"4"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"minimal_speed"				"650"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"maximum_speed"				"4000"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"speed_boost"				"-30"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"second_speed"				"600"
+			}
+			
+		}
+		"AbilityCastAnimation"				"ACT_DOTA_OVERRIDE_ABILITY_2"
+		"AbilitySound"					"Hero_Winter_Wyvern.SplinterBlast"
+	}
+	"custom_winter_wyvern_cold_embrace"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/winter_wyvern/custom_winter_wyvern_cold_embrace"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		//"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY | DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_NO"
+		"FightRecapLevel"				"1"
+		"AbilityTextureName"			"winter_wyvern_cold_embrace"
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCooldown"				"24 21 18 15"
+		"AbilityManaCost"				"50 60 70 80"
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_radius"			"1200"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"heal_pct"					"1.75 2.5 3.25 4.0"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"4"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"heal_amount"				"30 35 40 55"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"maximum_speed"				"4000"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"speed_boost"				"-30"
+			}
+			
+		}
+		"AbilityCastAnimation"				"ACT_DOTA_OVERRIDE_ABILITY_3"	
+		"AbilitySound"					"Hero_WinterWyvern.ColdEmbrace.Cast"
+	}
+	"custom_winter_wyvern_winters_curse"	
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"abilities/winter_wyvern/custom_winter_wyvern_winters_curse"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityTextureName"			"winter_wyvern_winters_curse"
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0.3"
+		"AbilityCooldown"				"90 85 80"
+		"AbilityManaCost"				"250"
+		"AbilitySound"					"Hero_WinterWyvern.WintersCurse"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"additional_radius"			"525"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage_reduction"			"100"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"4.5 5.0 5.5"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"attackspeed_bonus"					"65"
+			}
+			
+		}
+	}
+}

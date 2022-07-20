@@ -1,0 +1,544 @@
+"DOTAAbilities"
+{
+	//1ST--HERRSCHER--HERRSCHER--OF--RESANOS
+	//IGNOR INVIS
+	//STUN IMUNE
+	//HEX ALL CASTING ABILITIES
+	//BEGIN: STARTS WITH 0 HERRSCHER CHARGE
+	//PHASE 1:
+	//		CREATE ITEM : LASER +50 MANA CD: 5 SEC
+	//		CREATE ITEM : ETHEREAL +100 MANA CD: 20 SEC
+	// 		CAST ABILITIES : HEAT-SEEK MISSELSE +50 MANA PER TARGET. (LAUNCH TO ALL UNITS IN 1200 RADIUS) CD: 10SEC
+	// 		CAST ABILITIES : SPACE LAZER - ATTACK TARGET AND BLIND IT. MARK: +1000% INCOME DAMAGE FROM LASER. CD: 18SEC, DURATION: 30. 
+	//ON 1000 CHARGE:
+	//PHASE SWAP:
+	//PHASE 2:
+	//		DRAIN 20MANA/SEC
+	//		CREATE ITEM : BKB - CREATES MAGIC SHIELD, WHICH ABSORBS ALL MAGIC DAMAGE.
+	//		MARK TARGET : APPLIES 1 CORRUPION AND MARKS RANDOM TARGETS WITH "ANALYZE"(BOOST ALL IMCOMING DAMAGE BY 50%). EFFECT STACKS. CD: 2 SEC. CAN BE DISPLELED.
+	//		HERSCHER AURA : INCREASE CORRUPION LEVEL OF ALL HEROES IN 800 RANGE. CD: 5 SEC
+	//		POWER OF TECHNOLOGY: SUMMONS MARCH OF MACHINES. EACH HIT OF MARCH INCREASE CORRUPION LEVEL. CD: 20 SEC. 
+	//ON 0 CHARGE: OVERHEAT
+	// 		STUNS FOR 10 SEC.
+	//		GAIN 200% TOTAL INCOME DAMAGE.
+	//		
+	//2ND--HERRSCHER--OF--THE--VOID
+	//
+	//
+	//
+	//
+	//
+	//
+	// 
+	//3RD--HERRSCHER--OF-THUNDER
+	//CritDmg 20% 200%Rate 100%Cleave + Root 5sec + 25 HC BOTH PHASES
+	//TP to any building
+	//PHASE-1 
+	//		CAST ABILITY : LIGHTING JUDGMENT - STRICKES 1000Lghtning damage FAREST ENEMYAND NEARBY ALLYIES AND MAKE IT TAKE 500% BONUS DAMAGE FROM ANY SOURCE. DURATION: UNTIL PHASE 2; CD: 10SEC;
+	//		CAST ABILITY : Herrscher form - BECOMES LIGHTNING AND ATTACK NEARBY ENEMY EVERY 0.25SEC (DURATION 1 SEC) CD: 7SEC
+	//		CAST ABILITY : CHARGE UP - APPLIES 10SEC DEBUFF ON CURRENT TARGET(10 STACKS). Each hit from HoT dispell 1 stack. IF EFFECT ENDS DAMAGE ALL TARGETS IN LARGE AOE FOR 500Lightning per stack and pull them with stun (1 sec). CD:12SEC
+	//		CAST ABILITY : STATIC CHARGE - CREATES NEARBY FIELD WITH 3000DMG FOR 10SEC. When ends damage everybode in large AOE. IF HEROES STAY IN FIELD IT RECIVES SOME OF DAMAGE EVERY 0.5SEC. CD: 30SEC
+	//PHASE-2 (1000HC)
+	//		-100% MELEE DAMAGE
+	//		PURE DAMAGE
+	//		SLOWLY PULLS EMENY IN MEDIUS AOE 
+	//		SUMMNON DRAGON AND DISPELL ALL LIGHTNING JUDGMENT
+	//		CAST ABILITY : LIGHTNING MIRAGE - CREATES LIGHTNING ILLUSION WHICH EXPLODE WHEN ENEMY NEARBY AND STUNS ENEMY
+	//		CAST ABILITY : Herrscher form
+	//		CAST ABILITY : STATIC CHARGE CD: 15SEC
+	//		CAST ABILITY : DRAGON TAIL - CLEAVE AND STUNS(5SEC) ALL ENEMY IN CONUS-FORM MEDIUM RANGE CD: 15SEC
+	// 		CAST ABILITY : LIGHTNING BREATH - STRIKES BEAM APPLYING LIGHTNING VURNABLE(200%) Effect can be refreshed. stacks unlimeted. CD: 10SEC;
+	//		CAST ABILITY : WIPE HUMANITY - AFTER 80SEC KILLS ALL HEROES
+	//4TH--HERRSCHER--OF--WIND
+	//
+	//
+	//
+	//
+	//5TH--HERRSCHER--OF--ICE
+	//PASSIVE -100%HEAL AURA SPREADS
+	//FIRE DAMAGE +50% ICE DAMAGE -50%
+	//
+	//
+	//	
+	"aggro_passive"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/aggro"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+	}
+	
+	
+	"hor_passive"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_HIDDEN"
+		"MaxLevel"               		"1"	
+	}
+	"hor_create_laser"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"tinker_laser"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"  		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"  		"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags" 		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel"               		"1"
+		"AbilityCastPoint"       		"0"
+		"AbilityDamage"           		"500"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"5"
+		"AbilityCastRange"        		"1000"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gain_mana"				"50"
+			}
+		}
+		
+	}
+	"hor_create_etheral"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"pugna_decrepify"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"  		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"  		"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags" 		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel"               		"1"
+		"AbilityCastPoint"       		"0"
+		"AbilityDamage"           		"500"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"20"
+		"AbilityCastRange"        		"1000"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gain_mana"				"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"5"
+			}
+		}
+	}
+	"hor_create_heatseak"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"tinker_heat_seeking_missile"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetTeam"  		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"  		"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags" 		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel"               		"1"
+		"AbilityCastPoint"       		"0"
+		"AbilityDamage"           		"500"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"20"
+		"AbilityCastRange"        		"1000"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gain_mana"				"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"5"
+			}
+		}
+	}
+	"hor_create_beam"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"luna_lucent_beam"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"  		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"  		"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags" 		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_MAGICAL"
+		"MaxLevel"               		"1"
+		"AbilityCastPoint"       		"0"
+		"AbilityDamage"           		"500"
+		"AbilityManaCost"         		"0"
+		"AbilityCooldown"         		"20"
+		"AbilityCastRange"        		"1000"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gain_mana"				"100"
+			}
+		}
+	}
+	"hor_activate_mode"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"tinker_rearm"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilityCastPoint"       		"0"
+		"AbilityManaCost"         		"1000"
+	}
+	"hor_herrscher_mode"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"luna_lucent_beam"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lose_mana"				"20"
+			}
+		}
+	}
+	"hor_analyze"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"luna_lucent_beam"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lose_mana"				"20"
+			}
+		}
+	}
+	"hor_aura"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"honkai_debuff"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AURA"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityDamage"					"600"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lose_mana"				"20"
+			}
+		}
+	}
+	"hor_ultimate"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_reason"
+		"AbilityTextureName"			"tinker_march_of_the_machines"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lose_mana"				"20"
+			}
+		}
+	}
+	"hot_passive"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/passive"
+		"AbilityTextureName"			"juggernaut_blade_dance"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_chance"				"20"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"crit_mult"					"200"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cleave"					"100"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"root_duration"				"5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hc_restore"				"50"
+			}
+		}
+	}
+	"hot_lightning_judgement"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/phase1"
+		"AbilityTextureName"			"razor_eye_of_the_storm"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilityCooldown"				"10"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilityDamage"					"1000"
+		"AbilityChannelTime"  			"0.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aoe_radius"			"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage_pct"			"500"
+			}
+		}
+		"precache"
+		{
+			"soundfile" 	"soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+			"particle"      "particles/units/heroes/hero_zuus/zuus_lightning_bolt.vpcf"
+		}
+		
+	}
+	"hot_static_charge"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/phase1"
+		"AbilityTextureName"			"arc_warden_spark_wraith"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"2"
+		"AbilityCooldown"				"30 15"
+		"AbilityUnitDamageType"  		"DAMAGE_TYPE_PURE"
+		"DamageElementType" 			"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilityDamage"					"3000"
+		"AbilityChannelTime"  			"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"aoe_damage"			"3000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"soak_damage"			"100"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_radius"			"500"
+			}
+		}
+	}
+	"hot_phase_change"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/phase1"
+		"AbilityTextureName"			"obsidian_destroyer_equilibrium"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityChannelTime"			"2"
+		"MaxLevel"               		"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"phase_2_duration"		"90"
+			}
+			
+		}
+		"precache"
+		{
+			"soundfile"					"soundevents/herrschers/herrscher_of_thunder_sound.vsndevts"
+		}
+	}
+	"hot_herrscher_form"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/phase1"
+		"AbilityTextureName"			"juggernaut_swift_slash"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam" 		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"AbilityCooldown"				"7"
+		"AbilityDuration"				"1.25"
+		"AbilityCastRange"				"300"
+		"AbilityChannelTime"  			"0.3"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slash_count"			"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"600"
+			}
+		}
+	}
+	"hot_lightning_illusion"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/phase2"
+		"AbilityTextureName"			"storm_spirit_static_remnant"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"DamageElementType"				"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AbilityCooldown"				"10"
+		"AbilityDuration"				"30"
+		"AbilityChannelTime"  			"0.3"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lightning_remnant_radius"			"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lightning_remnant_damage_radius"	"450"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lightning_remnant_damage"			"1000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lightning_remnant_delay"			"2"
+			}
+		}
+	}
+	"hot_dragon_stun"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/dragon"
+		"AbilityTextureName"			"brewmaster_thunder_clap"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"DamageElementType"				"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AbilityCooldown"				"15"
+		"AbilityChannelTime"  			"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"800"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"angle"					"180"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"stun_duration"			"5"
+			}
+		}
+	}
+	"hot_dragon_breath"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/dragon"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"MaxLevel"               		"1"
+		"DamageElementType"				"DAMAGE_ELEMENT_TYPE_LIGHTNING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
+		"AbilityCooldown"				"10"
+		"AbilityChannelTime"  			"0.5"
+		"AbilityTextureName"			"lina_laguna_blade"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"shot_radius"			"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"shot_breach_duration"	"20"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"shot_breach"			"200"
+			}
+		}
+	}
+	"hot_dragon_passive"
+	{
+		"BaseClass" 					"ability_lua"
+		"ScriptFile"					"herrschers/herrscher_of_thunder/dragon"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	}
+}

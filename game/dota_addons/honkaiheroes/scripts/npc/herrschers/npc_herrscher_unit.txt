@@ -1,0 +1,138 @@
+"DOTAUnits"
+{
+	"npc_herrscher_thunder"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/heroes/arc_warden/arc_warden.vmdl"
+		"SoundSet"					"Hero_ArcWarden"
+		"ModelScale"				"4"
+		"Level"						"30"
+		
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"120"	
+		"AttackDamageMax"			"170"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"1.0"	
+		"AttackAnimationPoint"		"0.3"
+		"AttackAcquisitionRange"	"200"	
+		"AttackRange"				"200"
+		
+		"ProjectileModel"			"particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf"
+		"ProjectileSpeed"			"900"
+		"AttackSpeedActivityModifiers"
+		{
+			"fast"		"0"
+			"faster"	"275"
+			"fastest"	"350"
+		}
+		
+		"IsAncient"					"1"
+		"CanBeDominated" 			"0"
+		
+		
+		
+		
+		"Ability1"					"hot_lightning_judgement"
+		"Ability2"					"hot_herrscher_form"
+		"Ability3"					"hot_static_charge"		
+		"Ability5"					"hot_passive"
+		"Ability4"					"hot_phase_change"
+		"Ability6"					"hot_lightning_illusion"
+		"Ability7" 					"aggro_passive"
+		"ArmorPhysical"				"20"
+		"MagicalResistance"			"50"
+		"RingRadius"				"110"
+		"HealthBarOffset"			"500"
+		"BountyXP"					"0"
+		"BountyGoldMax"				"0"	
+		
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
+		"MovementSpeed"				"450"		// Speed
+		"MovementTurnRate"			"1"		// Turning rate.
+		"MovementSpeedActivityModifiers"
+		{
+			"walk"		"0"
+			"run"		"325"
+		}
+		
+		
+		"StatusHealth"				"800000"
+		"StatusHealthRegen"			"0"		// Health regeneration rate.
+		"StatusMana"				"1000"		// Base mana.
+		"StatusStartingMana"        "0"
+		"StatusManaRegen"			"0"	
+		
+		"particle_folder"		"particles/units/heroes/hero_arc_warden"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_HERO"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"VisionDaytimeRange"		"3000"
+		"VisionNighttimeRange"		"3000"
+		"HasInventory"				"0"		
+		"vscripts"                  "herrschers/herrscher_of_thunder/herrscher_of_thunder_ai.lua"
+		"Creature"
+		{	
+			"CanRespawn"        "0"
+			"DisableResistance" "100.0"
+			"AttachWearables"
+			{
+				"Wearable1" { "ItemDef" "556" }
+				"Wearable2" { "ItemDef" "557" }
+				"Wearable3" { "ItemDef" "598" }
+				"Wearable4" { "ItemDef" "656" }
+				"Wearable5"	{ "ItemDef" "601" }
+			}
+		}
+		"precache"
+		{
+			"model"     "models/heroes/arc_warden/arc_warden.vmdl"
+			"soundfile" "soundevents/herrschers/herrscher_of_thunder_sound.vsndevts"
+		}
+	}
+	"npc_hot_dragon"
+	{
+		"BaseClass"					"npc_dota_creature"
+		"Model"						"models/creeps/neutral_creeps/n_creep_black_dragon/n_creep_black_dragon.vmdl"
+		"ModelScale"				"2"
+		"Level"						"30"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"300"	
+		"AttackDamageMax"			"300"
+		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
+		"AttackRate"				"2.0"	
+		"AttackAnimationPoint"		"0.3"
+		"AttackAcquisitionRange"	"500"	
+		"AttackRange"				"500"
+		"IsAncient"					"1"
+		"CanBeDominated" 			"0"
+		"Ability1"					"hot_dragon_stun"
+		"Ability2"					"hot_dragon_breath"
+		"Ability3"					"hot_dragon_passive"		
+		"Ability4" 					"aggro_passive"
+		"ArmorPhysical"				"90"
+		"MagicalResistance"			"90"
+		"RingRadius"				"300"
+		"HealthBarOffset"			"200"
+		"BountyXP"					"0"
+		"BountyGoldMax"				"1000"	
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"			// Type of locomotion - ground, air
+		"MovementSpeed"				"550"		// Speed
+		"MovementTurnRate"			"1"	
+		"StatusHealth"				"100000"
+		"StatusHealthRegen"			"100"
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_HERO"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		"vscripts"                  "herrschers/herrscher_of_thunder/kuricara.lua"
+		
+		"VisionDaytimeRange"		"3000"
+		"VisionNighttimeRange"		"3000"
+		"HasInventory"				"0"	
+		"Creature"
+		{	
+			"CanRespawn"        "0"
+			"DisableResistance" "100.0"	
+		}
+	}
+}
