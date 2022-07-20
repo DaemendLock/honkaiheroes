@@ -1,0 +1,80 @@
+.RootCreation{
+    vertical-align: center;
+    horizontal-align: left;
+}
+.key_of_reason_menu {
+    width: 680px;
+    height: 480px;
+    box-shadow: #000000 0px 0px 8px 0px;
+    
+    background-color: #232627;
+    vertical-align: center;
+    horizontal-align: center;
+    padding: 10px;
+    border: 3px solid #292d2d;
+    flow-children: down;
+    
+}
+#key_of_reason_label{
+    vertical-align: top;
+    horizontal-align: center;
+}
+.ItemsList{
+    flow-children:right-wrap;
+	width: 680px;
+}
+.item_raw {
+    flow-children: right;
+    width: 700px;
+}
+.key_of_reason_item{
+    width: 180px;
+    height: 78px;
+    border: 3px solid #414b46;
+    background-color: #312e2c;
+    flow-children: right;
+    margin: 15px;
+
+    padding: 6px;
+
+}
+.key_of_reason_item:hover{
+    border: 3px solid yellow;
+}
+.key_of_reason_item:active{
+    brightness: 3;
+    border: 1px solid #501F18;
+    
+    sound: "ui_generic_button_click";
+}
+#MenuLabel{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    horizontal-align: center;
+    font-size: 27px;
+    color: #f5f5f5;
+    
+}
+
+#LeftSide{
+    horizontal-align: left;
+}
+#ItemImage{
+    width: 86px;
+    height: 64px;
+}
+#RightSide{
+    horizontal-align: right;
+}
+#itemnamepanel{
+
+}
+#itemcost{
+    font-size: 35px;
+    vertical-align: bottom;
+    horizontal-align: right;
+    color: #7A07B6;
+}

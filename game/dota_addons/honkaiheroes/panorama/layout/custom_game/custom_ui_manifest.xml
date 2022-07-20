@@ -1,0 +1,8 @@
+
+
+<root>
+    <Panel>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/keys/key_of_reason.xml" />
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/stigmata.xml" />
+    </Panel>   
+</root>

@@ -1,0 +1,123 @@
+.StigmataWindow{
+    vertical-align: center;
+    horizontal-align: center;
+}
+
+.Stigmata{
+    width: 650px;
+    height: 400px;
+    background-color: #212326;
+    vertical-align: center;
+    horizontal-align: left;
+    border: 3px solid black;
+    box-shadow: black 0px 0px 0px -1px;
+}
+
+.StigmaSetLabel{
+    horizontal-align: right;
+    font-size: 25px;
+    padding: 9px;
+    padding-top: 5px;
+    color: #02c3fd;
+    font-stretch: condensed;
+    letter-spacing: 0px;
+    font-style: italic;
+    font-weight: black;
+}
+
+.StigmataDescription{
+    color: #d1e5f1;
+    font-size: 15px;
+    font-weight: black;
+    margin: 7px;
+	
+}
+
+.StigmaDesc{
+    horizontal-align: right;
+	width: 73%;
+}
+.StigmaImg{
+		width: 100%;
+}
+
+.StigmaImage{
+	horizontal-align: left;
+	vertical-align: center;
+	height: 100%;
+	width: 27%;
+	margin-left: 1px;
+	flow-children: down;
+}
+
+.StigmaName{
+	color: #02c3fd;
+	vertical-align: top;
+	margin: 5px;
+	font-size: 20px;
+	font-stretch: condensed;
+    letter-spacing: 0px;
+    font-style: italic;
+    font-weight: black;
+}
+
+#stigmata{
+    horizontal-align: left;
+    width: 60%;
+    height: 100%;
+    border-right: 4px solid black;
+}
+
+#blue_line {
+    width: 95%;
+    height: 3px;
+    background-color: #7eb7d8;
+    horizontal-align: center;
+}
+
+#set_bonus{
+    horizontal-align: right;
+    width: 40%;
+    height: 100%;
+    border-left: 4px solid black;
+}
+
+#stigmata_t{
+    vertical-align: top;
+    width: 100%;
+    height: 33%;
+    border-bottom: 4px solid black;
+    
+}
+
+#stigmata_m{
+    vertical-align: center;
+    width: 100%;
+    height: 34%;
+    border-bottom: 4px solid black;
+    
+}
+
+#stigmata_b{
+    vertical-align: bottom;
+    width: 100%;
+    height: 33%;
+    
+}
+
+#stigmata_2set{
+    vertical-align: top;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+    flow-children: down;
+}
+
+#stigmata_3set{
+    vertical-align: bottom;
+    width: 100%;
+    height: 50%;
+    border-top: 2px solid black;
+    flow-children: down;
+}
+
