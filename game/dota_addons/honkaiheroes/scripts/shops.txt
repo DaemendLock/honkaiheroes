@@ -1,0 +1,61 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item" 		"item_honkai_heal"
+		"item" 		"item_honkai_antidot"
+		"item" 		"item_summon_hot"
+		"item" 		"item_level_up"
+	}
+	"attributes"
+	{
+		"item"		"item_ScottT"
+		"item"		"item_AcutagawaT"
+		"item"		"item_ElizabethT"
+		"item"		"item_WangT"
+		"item"		"item_ScottM"
+		"item"		"item_AcutagawaM"
+		"item"		"item_ElizabethM"
+		"item"		"item_WangM"
+		"item"		"item_ScottB"
+		"item"		"item_AcutagawaB"
+		"item"		"item_ElizabethB"
+		"item"		"item_WangB"
+		"item"		"item_TeslaT"
+		"item"		"item_AttilaT"
+		"item"		"item_EdisonT"
+		"item"		"item_KiraT"
+		"item"		"item_TeslaM"
+		"item"		"item_AttilaM"
+		"item"		"item_EdisonM"
+		"item"		"item_KiraM"
+		"item"		"item_TeslaB"
+		"item"		"item_AttilaB"
+		"item"		"item_EdisonB"
+		"item"		"item_KiraB"
+	}
+	"weapons"
+	{
+		"item"		"item_jingweiswings"
+		"item"		"item_nd_sacred_relic"
+		"item"		"item_rd_sacred_relic"
+		"item"		"item_mjolnir_gun"
+		"item"		"item_nue_of_shadow"
+	}
+	"artifacts"
+	{
+		"item"		"item_key_of_reason"
+		"item"		"item_key_of_the_void"
+		"item"		"item_key_of_sanction"
+		"item"		"item_key_of_hurricanes"
+		"item"		"item_key_of_icing"
+		"item"		"item_key_of_creation"
+		"item"		"item_key_of_destruction"
+		"item"		"item_key_of_sentience"
+		"item"		"item_key_of_devouring"
+		//"item"		"item_key_of_domination"
+		//"item"		"item_key_of_binding"
+		//"item"		"item_key_of_corruption"
+	}
+
+}
