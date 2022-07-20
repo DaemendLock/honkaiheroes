@@ -1,0 +1,26 @@
+<root>
+    
+    <Panel id= "data_frame">
+        <Label id = "teamname" text = "None" />
+        <Panel id="info_panel">
+            <Panel id = "data">
+                <Panel id = "tech_data">
+                <Label id = "tech_label" text = "None"/>
+                </Panel>
+            </Panel>
+            <Panel id = "resource">
+                <Panel id = "resource_wood">
+                    
+                </Panel>
+                <Panel id = "resource_metal">
+                
+                </Panel>
+                <Panel id = "resource_honkai">
+                
+                </Panel>
+            </Panel>
+            
+        </Panel>
+        
+    </Panel>   
+</root>

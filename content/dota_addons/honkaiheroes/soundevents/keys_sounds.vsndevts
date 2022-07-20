@@ -1,0 +1,60 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	Honkaiheroes.StarOfEden.Cast = 
+	{
+		type = "dota_src1_2d"
+		volume = 5.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/keys/star_of_eden.vsnd",
+		]
+	}
+	Honkaiheroes.Iris.Cast = 
+	{
+		type = "dota_src1_2d"
+		volume = 5.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/keys/iris_of_helheim.vsnd",
+		]
+	}
+	Honkaiheroes.Skadi.Cast1 = 
+	{
+		type = "dota_src1_2d"
+		volume = 5.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/keys/skadi1st1.vsnd",
+			"sounds/keys/skadi1st2.vsnd",
+		]
+	}
+	Honkaiheroes.Skadi.Cast2 = 
+	{
+		type = "dota_src1_2d"
+		volume = 5.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/keys/skadi2nd.vsnd",
+		]
+	}
+	Honkaiheroes.Skadi.Cast3 = 
+	{
+		type = "dota_src1_2d"
+		volume = 5.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/keys/skadi3rd.vsnd",
+		]
+	}
+	
+}

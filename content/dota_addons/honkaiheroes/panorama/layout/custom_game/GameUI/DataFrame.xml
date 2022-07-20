@@ -1,0 +1,12 @@
+<root>
+    
+    <Panel id= "data_frame">
+        <Panel id="info_panel">
+            <Panel id = "data">
+                <Panel id = "tech_data">
+                <Label id = "tech_label" text = "None"/>
+                </Panel>
+            </Panel>
+        </Panel>
+    </Panel>   
+</root>

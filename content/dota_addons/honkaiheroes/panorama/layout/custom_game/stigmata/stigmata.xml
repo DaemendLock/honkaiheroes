@@ -1,0 +1,42 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/keys/key_of_reason.css" />
+    </styles>
+    
+	<scripts>
+	   <include src="file://{resources}/scripts/custom_game/key_of_reason.js" />
+	</scripts>
+    <script>
+
+    </script>
+    
+    <snippets>
+        <snippet name="ItemSim">
+            <Button onactivate = "ItemChoose()" class="key_of_reason_item">
+                <Panel id="LeftSide">
+                    <Panel id="ItemImage">
+                        <DOTAItemImage id="ItemPng" itemname="item_key_of_reason" />
+                    </Panel>
+                </Panel>
+                <Panel id="RightSide">
+                    <DOTAAbilityImage id="honkaipenalti" abilityname="honkai_penalti" />
+                    <Label id="itemcost" text="0" />  
+                </Panel>
+                
+            </Button>
+        </snippet>
+        <snippet name="key_menu">
+            <Panel class="key_of_reason_menu">
+                <Panel id="key_of_reason_label">
+                    <Label id="MenuLabel" text="Void Archives: Mimicry" />
+                </Panel>
+                
+                <Panel class="ItemsList" id="ItemsListID">
+
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    
+   <Panel class="RootCreation" hittest="false"></Panel>
+</root>

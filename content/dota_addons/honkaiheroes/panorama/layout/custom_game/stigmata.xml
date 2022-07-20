@@ -1,0 +1,81 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/stigmata.css" />
+    </styles>
+    
+	<scripts>
+	   <include src="file://{resources}/scripts/custom_game/stigmata.js"/>
+	</scripts>
+    
+    <snippets>
+        <snippet name = "stigmata_window">
+            <Panel class = "Stigmata" hittest = "false" >
+            <Panel id = "stigmata">
+                <Panel class = "Stigma" id="stigmata_t">
+                    <Panel id = "stigma_image" class = "StigmaImage">
+						<Label class = "StigmaName" text =""/>
+                        <DOTAItemImage class="StigmaImg" id="top_image" itemname = "" onmouseover=""/>
+                    </Panel>
+                    <Panel id = "stigma_des" class = "StigmaDesc">
+                        <Panel class = "StigmaStats">
+							<Label class = "StigmataStat" id = "stigma_hp"  text = "HP: 0"/>
+							<Label class = "StigmataStat" id = "stigma_atk" text = "ATK: 0"/>
+							<Label class = "StigmataStat" id = "stigma_def" text = "DEF: 0"/>
+							<Label class = "StigmataStat" id = "stigma_crt" text = "CRT: 0"/>
+						</Panel>
+						<Panel id = "blue_line"></Panel>
+                        <Label class = "StigmataDescription" id = "bot_desc" text = ""/>
+                    </Panel>
+                </Panel>
+                <Panel class = "Stigma" id="stigmata_m" >
+                    <Panel id = "stigma_image" class = "StigmaImage">
+						<Label class = "StigmaName" text =""/>
+                        <DOTAItemImage class="StigmaImg" id="top_image" itemname = "" onmouseover="OnHover()"/>
+                    </Panel>
+                    <Panel id = "stigma_des" class = "StigmaDesc">
+                        <Panel class = "StigmaStats">
+							<Label class = "StigmataStat" id = "stigma_hp"  text = "HP: 0"/>
+							<Label class = "StigmataStat" id = "stigma_atk" text = "ATK: 0"/>
+							<Label class = "StigmataStat" id = "stigma_def" text = "DEF: 0"/>
+							<Label class = "StigmataStat" id = "stigma_crt" text = "CRT: 0"/>
+						</Panel>
+						<Panel id = "blue_line"></Panel>
+                        <Label class = "StigmataDescription" id = "bot_desc" text = ""/>
+                    </Panel>
+                </Panel>
+                <Panel class = "Stigma" id="stigmata_b">
+                    <Panel id = "stigma_image" class = "StigmaImage">
+						<Label class = "StigmaName" text =""/>
+                        <DOTAItemImage class="StigmaImg" id="top_image" itemname = "" onmouseover=""/>
+                    </Panel>
+                    <Panel id = "stigma_des" class = "StigmaDesc"> 
+						<Panel class = "StigmaStats">
+							<Label class = "StigmataStat" id = "stigma_hp"  text = "HP: 0"/>
+							<Label class = "StigmataStat" id = "stigma_atk" text = "ATK: 0"/>
+							<Label class = "StigmataStat" id = "stigma_def" text = "DEF: 0"/>
+							<Label class = "StigmataStat" id = "stigma_crt" text = "CRT: 0"/>
+						</Panel>
+						<Panel id = "blue_line"></Panel>
+                        <Label class = "StigmataDescription" id = "bot_desc" text = ""/>
+                    </Panel>
+                </Panel>
+            </Panel>
+            <Panel id = "set_bonus">
+                <Panel id="stigmata_2set">
+                    <Label class = "StigmaSetLabel" text= "Bonus 2-pieces" />
+                    <Panel id = "blue_line"></Panel>
+                    <Label class = "StigmataDescription" id = "set2_desc" text= "" />
+                </Panel>
+                <Panel id="stigmata_3set">
+                    <Label class = "StigmaSetLabel" text= "Bonus 3-pieces" />
+                    <Panel id = "blue_line"></Panel>
+                    <Label class = "StigmataDescription" id = "set3_desc" text= "" />
+                </Panel>
+            </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class = "StigmataWindow" id = "s_win">
+        
+    </Panel>
+</root>

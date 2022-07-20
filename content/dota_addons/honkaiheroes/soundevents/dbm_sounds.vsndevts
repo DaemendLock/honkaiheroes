@@ -1,0 +1,114 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	DBM.Adds = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Adds.vsnd",
+		]
+	}
+	DBM.Horn = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/AirHord.vsnd",
+		]
+	}
+	DBM.Focus = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Focus.vsnd",
+		]
+	}
+	DBM.RunAway = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/RunAway.vsnd",
+		]
+	}
+	DBM.Victory = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/SmoothMcGroove_Fanfare.vsnd",
+			"sounds/dbm/Next.vsnd",
+		]
+	}
+	DBM.Spread = 
+	{
+		type = "dota_src1_2d"
+		volume = 3.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Spread.vsnd",
+		]
+	}
+	DBM.Stack = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Stack.vsnd",
+		]
+	}
+	DBM.Switch = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Switch.vsnd",
+		]
+	}
+	DBM.Taunt = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/Taunt.vsnd",
+		]
+	}
+	DBM.Beware = 
+	{
+		type = "dota_src1_2d"
+		volume = 2.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/dbm/UR_Algalon_BHole01.vsnd",
+		]
+	}
+}

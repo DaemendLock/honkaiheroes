@@ -1,0 +1,9 @@
+<root>
+	
+	<Panel class="HHeroesGameInfo">
+		<Panel id="Title">
+			<Label id="TitleName" text="#addonname" />
+		</Panel>
+		
+	</Panel>
+</root>
